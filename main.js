@@ -8,8 +8,8 @@ const output = document.getElementById("output");
 
 input.value = 1;
 
-function added() {
-    result = parseInt(input.value) + parseInt(output.innerHTML);
+const added = () => {
+    result = parseInt(input.value) + parseInt(output.innerHTML + 1);
 
     output.textContent = result;
 
@@ -19,8 +19,8 @@ function added() {
 };
    
 
-function sub() {
-    result = parseInt(output.innerHTML) - parseInt(input.value);
+const sub = () => {
+    result = parseInt(output.innerHTML) - parseInt(input.value - 1);
 
     output.textContent = result;
 
