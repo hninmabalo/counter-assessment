@@ -19,7 +19,6 @@ function added() {
 };
    
 
-
 function sub() {
     result = parseInt(output.innerHTML) - parseInt(input.value);
 
@@ -29,8 +28,6 @@ function sub() {
         output.style.color = "red";
     }
 };
-
-
 
 add.addEventListener("click", added);
 subtract.addEventListener("click", sub);
