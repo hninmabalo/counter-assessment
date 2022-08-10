@@ -13,10 +13,12 @@ section {
     text-align: center;
     color: black;
     background-color: white;
-    border: ridge;
+    border: groove;
     border-color: darkgrey;
+    border-radius: 10%;
     font-size: 50px;
-    max-width: 30%;
+    max-width: 20%;
+    margin: 20px;
 }
 
 #output {
@@ -28,11 +30,12 @@ section {
 button {
     color: white;
     background-color: darkgrey;
-    border: ridge;
+    border: groove;
     border-color: darkgrey;
-    font: bold;
+    border-radius: 10%;
     font-size: 50px;
     cursor: pointer;
+    width: 60px;
 }
 
 button:hover {

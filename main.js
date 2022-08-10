@@ -9,7 +9,7 @@ const output = document.getElementById("output");
 input.value = 1;
 
 const added = () => {
-    result = parseInt(input.value) + parseInt(output.innerHTML + 1);
+    result = parseInt(input.value) + parseInt(output.innerHTML);
 
     output.textContent = result;
 
